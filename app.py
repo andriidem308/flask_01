@@ -1,9 +1,7 @@
 """Flask project."""
 
 from faker import Faker
-
 from flask import Flask, jsonify, redirect, render_template, request, url_for
-
 from flask_sqlalchemy import SQLAlchemy
 
 fake = Faker()
